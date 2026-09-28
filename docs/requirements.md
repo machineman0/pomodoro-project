@@ -49,6 +49,18 @@ Acceptance criteria:
 - The progress resets at midnight (local time).
 - When I reach the goal, I see a message.
 
+### US-4: Long break
+
+> As a user, I want a longer break after several focus sessions, so that I can recover properly.
+
+Acceptance criteria:
+- After every 4th completed focus session of the day, the suggested break is a long break (15 min).
+- After all other focus sessions, the suggested break is a short break (5 min).
+- Focus sessions that were reset early don't count toward the 4.
+- Breaks never count toward the 4.
+- The count restarts at midnight (local time).
+- I can skip a break and start the next focus session directly.
+
 ---
 
 ## Functional requirements
